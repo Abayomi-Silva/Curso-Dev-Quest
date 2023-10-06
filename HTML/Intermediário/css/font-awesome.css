@@ -1,0 +1,14 @@
+.fa-facebook{
+    color: blue;
+}
+
+.fa-facebook:hover{
+    color: rebeccapurple;
+}
+.fa-instagram{
+    color: darkorchid;
+}
+
+.fa-instagram:hover{
+    color: deeppink;
+}

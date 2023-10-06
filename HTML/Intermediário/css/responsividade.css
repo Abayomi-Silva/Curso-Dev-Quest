@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@media(max-width: 576px){
+    .cabecalho{
+        text-align: center;
+    }
+    .cabecalho nav{
+        float: none;
+    }
+    .cabecalho nav li{
+        display: block;
+    }
+
+}
