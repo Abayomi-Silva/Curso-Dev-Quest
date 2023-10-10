@@ -1,0 +1,59 @@
+h1{
+    color: aqua;
+}
+
+.paragrafo{
+    color: blueviolet;
+}
+
+#menu{
+    color: brown;
+    margin-left: 30px;
+}
+
+*{
+    padding: 0;
+    font-size: 25px;
+}
+
+.titulo.vermelho{
+    color: red;
+}
+
+.titulo.amarelo{
+    color: yellow;
+}
+
+.titulo{
+    font-size: 40px;
+}
+
+p, span{
+    font-size: 20px;
+    color: green;
+}
+
+.sobre .texto{
+    background-color: aquamarine;
+    color: orange;
+}
+
+/* pai > filho{
+    propriedade: valor;
+} */
+
+div > p{
+    color: teal;
+}
+
+div + p{
+    background-color: red;
+}
+
+a[target=_blank]{
+    color: yellow;
+}
+
+a[href="teste.com"]{
+    color: greenyellow;
+}
