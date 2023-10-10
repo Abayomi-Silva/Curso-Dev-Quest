@@ -25,3 +25,13 @@ li::marker{
 .after::after{
     content: url("/CSS/Avançado/Pseudo-Elementos/images/21362697191661247270-20.png");
 }
+
+.before::selection{
+    color: gold;
+    background-color: red;
+}
+
+.after::selection{
+    color: yellowgreen;
+    background-color: violet;
+}
