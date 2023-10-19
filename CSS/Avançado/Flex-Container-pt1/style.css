@@ -1,0 +1,38 @@
+    /* direction */
+.container.direction {
+    display: flex;
+    flex-direction: row-reverse;
+}
+.container.direction div{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    color: rgb(0, 0, 0);
+    margin: 10px;
+} 
+
+    /* wrap */
+.container.wrap{
+    display: flex;
+    flex-wrap: wrap;
+}
+.container.wrap div{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(27, 179, 21);
+    color: rgb(0, 0, 0);
+    margin: 10px;  
+} 
+
+    /* flow */
+.container.flow{
+    display: flex;
+    flex-flow: row wrap-reverse;
+}
+.container.flow div{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 166, 0);
+    color: rgb(0, 0, 0);
+    margin: 10px;
+} 
