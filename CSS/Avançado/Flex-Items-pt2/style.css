@@ -1,5 +1,6 @@
 .flex-0{
    /* flex-grow, flex-shrink, flex-basis */
+   flex: 0;
 }
 
 .flex-1{
@@ -14,4 +15,24 @@
 
 .wrap{
     flex-wrap: wrap;
+}
+
+.order .item3{
+    order: 5;
+}
+
+/* .align-self .item5{
+    align-self: auto;
+} */
+
+.align-self.start .item3{
+    align-self: flex-start;
+}
+
+.align-self.end .item3{
+    align-self: flex-end;
+}
+
+.align-self.center .item2{
+    align-self: stretch;
 }
