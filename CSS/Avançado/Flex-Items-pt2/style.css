@@ -2,7 +2,6 @@
    /* flex-grow, flex-shrink, flex-basis */
    flex: 0;
 }
-
 .flex-1{
     flex: 0 1 100px;
 }
