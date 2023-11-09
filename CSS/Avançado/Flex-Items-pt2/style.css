@@ -24,9 +24,11 @@
 .align-self .item5{
     align-self: auto;
 }
+
 .align-self.start .item3{
     align-self: flex-start;
 }
+
 .align-self.end .item3{
     align-self: flex-end;
 }
