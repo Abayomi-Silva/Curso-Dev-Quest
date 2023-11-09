@@ -16,6 +16,7 @@
 .wrap{
     flex-wrap: wrap;
 }
+
 .order .item3{
     order: 5;
 }
