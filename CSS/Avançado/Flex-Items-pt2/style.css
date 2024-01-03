@@ -5,7 +5,6 @@
 .flex-1{   
     flex: 0 1 100px;
 }
-
 .flex{
     flex-grow: 1;
     flex-shrink: 1;
